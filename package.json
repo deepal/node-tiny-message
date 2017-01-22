@@ -1,6 +1,6 @@
 {
   "name": "tiny-message",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simple Message Generator",
   "main": "dist/index.js",
   "scripts": {
