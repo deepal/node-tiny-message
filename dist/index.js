@@ -20,6 +20,7 @@ var Message = function () {
 
             return {
                 success: true,
+                code: options.code,
                 message: options.message,
                 data: options.data
             };
