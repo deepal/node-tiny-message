@@ -1,5 +1,5 @@
 class Message {
-    static success(message, data, code) {
+    static success({message, data, code}) {
         const options = {
             code: (code !== null && code !== undefined ? code : 0),
             message: message || '',
@@ -14,7 +14,7 @@ class Message {
         };
     }
 
-    static error(message, data, code) {
+    static error({message, data, code}) {
         const options = {
             code: (code !== null && code !== undefined ? code : -1),
             message: message || '',
